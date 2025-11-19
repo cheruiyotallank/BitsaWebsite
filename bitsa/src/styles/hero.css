@@ -1,0 +1,54 @@
+.hero-section {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  z-index: 2;
+  padding: 2rem;
+  max-width: 700px;
+  position: relative;
+}
+
+.glitch {
+  font-size: 3rem;
+  font-weight: 700;
+  position: relative;
+  color: var(--color-accent);
+  animation: glitch 3s infinite;
+  text-shadow: 0 0 20px rgba(255,255,255,0.8), 0 0 40px rgba(255,255,255,0.4);
+}
+
+@keyframes glitch {
+  0% { text-shadow: 2px 2px #1d4ed8, -2px -2px #1e3a8a; }
+  25% { text-shadow: -2px 2px #1d4ed8, 2px -2px #1e3a8a; }
+  50% { text-shadow: 2px -2px #1d4ed8, -2px 2px #1e3a8a; }
+  75% { text-shadow: -2px -2px #1d4ed8, 2px 2px #1e3a8a; }
+  100% { text-shadow: 2px 2px #1d4ed8, -2px -2px #1e3a8a; }
+}
+
+.hero-sub {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: white;
+  opacity: 0.85;
+  text-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.hero-ctas {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hero-ctas a {
+  text-shadow: 0 0 10px rgba(0,0,0,0.8);
+  color: white !important;
+}

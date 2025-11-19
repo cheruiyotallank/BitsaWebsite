@@ -1,0 +1,38 @@
+[
+  {
+    "title": "BITSA Tech Workshop 2024",
+    "date": "2024-12-15",
+    "desc": "Join us for an exciting workshop on modern web development technologies including React, Node.js, and cloud deployment. Perfect for students looking to enhance their technical skills.",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop"
+  },
+  {
+    "title": "Networking Mixer",
+    "date": "2024-11-20",
+    "desc": "Connect with industry professionals and fellow students at our monthly networking event. Great opportunity to build connections and learn about career opportunities in tech.",
+    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=300&fit=crop"
+  },
+  {
+    "title": "Hackathon 2024",
+    "date": "2024-12-01",
+    "desc": "24-hour coding challenge where teams compete to build innovative solutions. Prizes for best projects and special mentions for creative ideas. Open to all skill levels!",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop"
+  },
+  {
+    "title": "Guest Speaker: AI in Education",
+    "date": "2024-11-10",
+    "desc": "Dr. Sarah Johnson from MIT will speak about the future of artificial intelligence in educational technology. Don't miss this insightful session!",
+    "image": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=300&fit=crop"
+  },
+  {
+    "title": "Study Group Sessions",
+    "date": "2024-11-05",
+    "desc": "Weekly study groups for BBIT, Software Engineering, and Networking students. Get help with coursework, share knowledge, and prepare for exams together.",
+    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400&h=300&fit=crop"
+  },
+  {
+    "title": "Career Fair 2024",
+    "date": "2024-12-20",
+    "desc": "Meet representatives from top tech companies. Learn about internship opportunities, job openings, and what employers look for in candidates.",
+    "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400&h=300&fit=crop"
+  }
+]

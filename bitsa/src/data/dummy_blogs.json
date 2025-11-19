@@ -1,0 +1,44 @@
+[
+  {
+    "title": "The Future of Web Development",
+    "author": "Dr. Emily Chen",
+    "date": "2024-10-15",
+    "content": "Web development has evolved dramatically over the past decade. From static HTML pages to dynamic single-page applications, the field continues to push boundaries. In this post, we explore emerging trends like WebAssembly, progressive web apps, and the impact of AI on development workflows. As BITSA members, staying ahead of these trends is crucial for your future careers in tech.",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop"
+  },
+  {
+    "title": "Building a Personal Brand as a Developer",
+    "author": "Marcus Rodriguez",
+    "date": "2024-09-28",
+    "content": "In today's competitive job market, technical skills alone aren't enough. Building a strong personal brand can set you apart from other candidates. This article covers strategies for creating an effective portfolio, maintaining active social media presence, contributing to open-source projects, and networking effectively within the tech community.",
+    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=300&fit=crop"
+  },
+  {
+    "title": "Cybersecurity Fundamentals for Students",
+    "author": "Prof. James Wilson",
+    "date": "2024-10-05",
+    "content": "With increasing digital threats, understanding cybersecurity basics is essential for all tech professionals. This comprehensive guide covers encryption, secure coding practices, common vulnerabilities, and best practices for protecting digital assets. Whether you're studying software engineering or networking, these concepts will be invaluable in your career.",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop"
+  },
+  {
+    "title": "From College to Tech Giant: Alumni Success Stories",
+    "author": "BITSA Editorial Team",
+    "date": "2024-09-15",
+    "content": "Hear from our successful alumni who have gone on to work at companies like Google, Microsoft, and Amazon. Their journeys highlight the importance of continuous learning, networking, and taking initiative. These inspiring stories demonstrate how BITSA membership and active participation can open doors to incredible opportunities.",
+    "image": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=300&fit=crop"
+  },
+  {
+    "title": "The Rise of Cloud Computing",
+    "author": "Dr. Lisa Park",
+    "date": "2024-10-22",
+    "content": "Cloud computing has revolutionized how we build and deploy applications. This article explores major cloud platforms (AWS, Azure, GCP), serverless architecture, containerization with Docker and Kubernetes, and the benefits of cloud-native development. Understanding these technologies is becoming essential for modern software engineers.",
+    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400&h=300&fit=crop"
+  },
+  {
+    "title": "Women in Tech: Breaking Barriers",
+    "author": "Sarah Thompson",
+    "date": "2024-09-08",
+    "content": "Despite progress, women remain underrepresented in technology fields. This piece discusses the challenges women face in tech, success stories from female leaders, and initiatives to promote diversity and inclusion. BITSA is committed to supporting all students regardless of gender, and we encourage everyone to contribute to a more inclusive tech community.",
+    "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400&h=300&fit=crop"
+  }
+]
