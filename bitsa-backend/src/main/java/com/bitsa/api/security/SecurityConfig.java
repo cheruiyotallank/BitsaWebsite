@@ -1,6 +1,5 @@
 package com.bitsa.api.security;
 
-import com.bitsa.api.config.CorsConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,9 +18,6 @@ public class SecurityConfig {
     @Autowired
     private JwtFilter jwtFilter;
 
-    @Autowired
-    private CorsConfig corsConfig;
-
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
@@ -35,7 +31,8 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.csrf().disable()
-                .cors(cors -> cors.configurationSource(corsConfig.corsConfigurationSource()))
+                .cors()
+                .and()
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/auth/**", "/h2-console/**", "/api/files/**", "/api/blogs/**", "/api/events/**", "/api/gallery/**", "/api/stats/**").permitAll()
                         .anyRequest().authenticated()
