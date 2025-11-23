@@ -47,6 +47,8 @@ export function AuthProvider({ children }) {
     try {
       const response = await axios.post("/api/auth/register", userData);
       // Optionally log in the user after successful registration
+      // Optionally log in the user after successful registration
+
       // await login(userData.email, userData.password);
       return response.data;
     } catch (error) {
